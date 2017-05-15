@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  DuckHunt
 //
-//  Created by Allen Fang on 5/12/17.
-//  Copyright © 2017 Allen Fang. All rights reserved.
+//  Created by Allen Fang, Samuel Moon, Harrison Mai, Alan Le on 5/14/17.
+//  Copyright © 2017 Allen Fang, Samuel Moon, Harrison Mai, Alan Le. All rights reserved.
 //
 
 import UIKit

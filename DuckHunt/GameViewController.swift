@@ -2,8 +2,8 @@
 //  GameViewController.swift
 //  DuckHunt
 //
-//  Created by Allen Fang on 5/12/17.
-//  Copyright © 2017 Allen Fang. All rights reserved.
+//  Created by Allen Fang, Samuel Moon, Harrison Mai, Alan Le on 5/14/17.
+//  Copyright © 2017 Allen Fang, Samuel Moon, Harrison Mai, Alan Le. All rights reserved.
 //
 
 import UIKit
@@ -12,21 +12,21 @@ import GameplayKit
 
 class GameViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
         
         if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
-                // Set the scale mode to scale to fit the window
+            //Load the SKScene from 'GameScene.sks'
+            if let scene = MainMenuScene(fileNamed: "MainMenu") {
+                // Set the scale mode fit the window
                 scene.scaleMode = .aspectFill
-                
-                // Present the scene
+                // Size our scene to fit the view exactly:
+                scene.size = view.bounds.size
+                // Show the new scene:
                 view.presentScene(scene)
             }
             
             view.ignoresSiblingOrder = true
-            
             view.showsFPS = true
             view.showsNodeCount = true
         }
@@ -37,11 +37,7 @@ class GameViewController: UIViewController {
     }
 
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
-        } else {
-            return .all
-        }
+        return .landscape
     }
 
     override func didReceiveMemoryWarning() {

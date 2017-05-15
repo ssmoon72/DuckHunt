@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A205EF161ECA4C3900A394B9 /* missed-shot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A205EF151ECA4C3900A394B9 /* missed-shot.mp3 */; };
+		A205EF181ECA4C4700A394B9 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A205EF171ECA4C4700A394B9 /* explosion.mp3 */; };
+		A205EF1A1ECA4C5B00A394B9 /* shooting-stars-intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A205EF191ECA4C5B00A394B9 /* shooting-stars-intro.mp3 */; };
+		A205EF1C1ECA4C6400A394B9 /* shooting-stars-main.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A205EF1B1ECA4C6400A394B9 /* shooting-stars-main.mp3 */; };
+		FBCC376B1EC8F8F60001B5C1 /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCC376A1EC8F8F60001B5C1 /* Duck.swift */; };
+		FBCC376F1EC92C470001B5C1 /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCC376E1EC92C470001B5C1 /* AudioManager.swift */; };
+		FBCC37791EC934320001B5C1 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBCC37781EC934320001B5C1 /* HUD.swift */; };
+		FBEBF65E1EC97279004F3DAE /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEBF65D1EC97279004F3DAE /* MainMenu.swift */; };
+		FBEBF6601EC97421004F3DAE /* MainMenu.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF65F1EC97421004F3DAE /* MainMenu.sks */; };
+		FBEBF6621EC97A2E004F3DAE /* GameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBEBF6611EC97A2E004F3DAE /* GameOver.sks */; };
+		FBEBF6641EC97A39004F3DAE /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEBF6631EC97A39004F3DAE /* GameOver.swift */; };
 		FBF411EA1EC6BDDD00552C88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF411E91EC6BDDD00552C88 /* AppDelegate.swift */; };
 		FBF411EC1EC6BDDD00552C88 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBF411EB1EC6BDDD00552C88 /* GameScene.sks */; };
 		FBF411EE1EC6BDDD00552C88 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBF411ED1EC6BDDD00552C88 /* Actions.sks */; };
@@ -15,9 +26,22 @@
 		FBF411F51EC6BDDD00552C88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF411F31EC6BDDD00552C88 /* Main.storyboard */; };
 		FBF411F71EC6BDDD00552C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBF411F61EC6BDDD00552C88 /* Assets.xcassets */; };
 		FBF411FA1EC6BDDD00552C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBF411F81EC6BDDD00552C88 /* LaunchScreen.storyboard */; };
+		FBF412021EC6BF9400552C88 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF412011EC6BF9400552C88 /* Player.swift */; };
+		FBF412041EC6BFBB00552C88 /* GameSprite.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBF412031EC6BFBB00552C88 /* GameSprite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A205EF151ECA4C3900A394B9 /* missed-shot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "missed-shot.mp3"; path = "duckhuntsounds/missed-shot.mp3"; sourceTree = SOURCE_ROOT; };
+		A205EF171ECA4C4700A394B9 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = explosion.mp3; path = duckhuntsounds/explosion.mp3; sourceTree = SOURCE_ROOT; };
+		A205EF191ECA4C5B00A394B9 /* shooting-stars-intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "shooting-stars-intro.mp3"; path = "duckhuntsounds/shooting-stars-intro.mp3"; sourceTree = SOURCE_ROOT; };
+		A205EF1B1ECA4C6400A394B9 /* shooting-stars-main.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "shooting-stars-main.mp3"; path = "duckhuntsounds/shooting-stars-main.mp3"; sourceTree = SOURCE_ROOT; };
+		FBCC376A1EC8F8F60001B5C1 /* Duck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		FBCC376E1EC92C470001B5C1 /* AudioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		FBCC37781EC934320001B5C1 /* HUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
+		FBEBF65D1EC97279004F3DAE /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		FBEBF65F1EC97421004F3DAE /* MainMenu.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MainMenu.sks; sourceTree = "<group>"; };
+		FBEBF6611EC97A2E004F3DAE /* GameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOver.sks; sourceTree = "<group>"; };
+		FBEBF6631EC97A39004F3DAE /* GameOver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
 		FBF411E61EC6BDDD00552C88 /* DuckHunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuckHunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBF411E91EC6BDDD00552C88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBF411EB1EC6BDDD00552C88 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -28,6 +52,8 @@
 		FBF411F61EC6BDDD00552C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBF411F91EC6BDDD00552C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBF411FB1EC6BDDD00552C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBF412011EC6BF9400552C88 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		FBF412031EC6BFBB00552C88 /* GameSprite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameSprite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +67,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FBCC377A1EC9365D0001B5C1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				FBDEC01E1EC9514C00906A45 /* Sound */,
+				FBCC377B1EC936660001B5C1 /* Music */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		FBCC377B1EC936660001B5C1 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				A205EF1B1ECA4C6400A394B9 /* shooting-stars-main.mp3 */,
+				A205EF191ECA4C5B00A394B9 /* shooting-stars-intro.mp3 */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		FBDEC01E1EC9514C00906A45 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
 		FBF411DD1EC6BDDD00552C88 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +111,27 @@
 		FBF411E81EC6BDDD00552C88 /* DuckHunt */ = {
 			isa = PBXGroup;
 			children = (
-				FBF411E91EC6BDDD00552C88 /* AppDelegate.swift */,
-				FBF411EB1EC6BDDD00552C88 /* GameScene.sks */,
+				A205EF171ECA4C4700A394B9 /* explosion.mp3 */,
+				A205EF151ECA4C3900A394B9 /* missed-shot.mp3 */,
+				FBCC377A1EC9365D0001B5C1 /* Assets */,
+				FBF411FB1EC6BDDD00552C88 /* Info.plist */,
 				FBF411ED1EC6BDDD00552C88 /* Actions.sks */,
+				FBF411EB1EC6BDDD00552C88 /* GameScene.sks */,
+				FBF411E91EC6BDDD00552C88 /* AppDelegate.swift */,
+				FBCC376A1EC8F8F60001B5C1 /* Duck.swift */,
 				FBF411EF1EC6BDDD00552C88 /* GameScene.swift */,
+				FBF412031EC6BFBB00552C88 /* GameSprite.swift */,
 				FBF411F11EC6BDDD00552C88 /* GameViewController.swift */,
-				FBF411F31EC6BDDD00552C88 /* Main.storyboard */,
+				FBF412011EC6BF9400552C88 /* Player.swift */,
 				FBF411F61EC6BDDD00552C88 /* Assets.xcassets */,
 				FBF411F81EC6BDDD00552C88 /* LaunchScreen.storyboard */,
-				FBF411FB1EC6BDDD00552C88 /* Info.plist */,
+				FBF411F31EC6BDDD00552C88 /* Main.storyboard */,
+				FBCC376E1EC92C470001B5C1 /* AudioManager.swift */,
+				FBCC37781EC934320001B5C1 /* HUD.swift */,
+				FBEBF65D1EC97279004F3DAE /* MainMenu.swift */,
+				FBEBF65F1EC97421004F3DAE /* MainMenu.sks */,
+				FBEBF6611EC97A2E004F3DAE /* GameOver.sks */,
+				FBEBF6631EC97A39004F3DAE /* GameOver.swift */,
 			);
 			path = DuckHunt;
 			sourceTree = "<group>";
@@ -105,6 +168,7 @@
 				TargetAttributes = {
 					FBF411E51EC6BDDD00552C88 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = KBT3GMQKG7;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -133,9 +197,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBF411F51EC6BDDD00552C88 /* Main.storyboard in Resources */,
+				A205EF161ECA4C3900A394B9 /* missed-shot.mp3 in Resources */,
 				FBF411EC1EC6BDDD00552C88 /* GameScene.sks in Resources */,
+				A205EF181ECA4C4700A394B9 /* explosion.mp3 in Resources */,
+				FBEBF6601EC97421004F3DAE /* MainMenu.sks in Resources */,
 				FBF411F71EC6BDDD00552C88 /* Assets.xcassets in Resources */,
+				A205EF1A1ECA4C5B00A394B9 /* shooting-stars-intro.mp3 in Resources */,
 				FBF411FA1EC6BDDD00552C88 /* LaunchScreen.storyboard in Resources */,
+				FBEBF6621EC97A2E004F3DAE /* GameOver.sks in Resources */,
+				A205EF1C1ECA4C6400A394B9 /* shooting-stars-main.mp3 in Resources */,
 				FBF411EE1EC6BDDD00552C88 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,8 +217,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBF412021EC6BF9400552C88 /* Player.swift in Sources */,
+				FBEBF65E1EC97279004F3DAE /* MainMenu.swift in Sources */,
+				FBCC376F1EC92C470001B5C1 /* AudioManager.swift in Sources */,
+				FBEBF6641EC97A39004F3DAE /* GameOver.swift in Sources */,
 				FBF411F01EC6BDDD00552C88 /* GameScene.swift in Sources */,
+				FBCC376B1EC8F8F60001B5C1 /* Duck.swift in Sources */,
 				FBF411F21EC6BDDD00552C88 /* GameViewController.swift in Sources */,
+				FBCC37791EC934320001B5C1 /* HUD.swift in Sources */,
+				FBF412041EC6BFBB00552C88 /* GameSprite.swift in Sources */,
 				FBF411EA1EC6BDDD00552C88 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KBT3GMQKG7;
 				INFOPLIST_FILE = DuckHunt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.allenfang.DuckHunt;
@@ -282,6 +360,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KBT3GMQKG7;
 				INFOPLIST_FILE = DuckHunt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.allenfang.DuckHunt;
@@ -309,6 +388,7 @@
 				FBF412001EC6BDDD00552C88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
